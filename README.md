@@ -1,5 +1,5 @@
 Melodify
-Melodify is a music application web app built using React.js, Node.js, and Express. It allows users to discover random songs and search for specific songs using the Spotify NoCode API. For songs without a preview URL, Melodify fetches previews using the YouTube Data API v3.
+Melodify is a music application web app built using React.js, Node.js, and Express. It allows users to discover trending songs and search for specific songs using the Spotify NoCode API. For songs without a preview URL, Melodify fetches previews using the YouTube Data API v3.
 
 Introduction
 Melodify is a single-page web application designed to provide a seamless music discovery and listening experience. Users can browse trending songs on the homepage or use the search bar to find specific songs. The application leverages Spotify's NoCode API for song metadata and previews. For songs without a preview URL, it falls back to the YouTube Data API v3 to fetch previews.
@@ -42,7 +42,7 @@ Search: Use the search bar to find specific songs. Results include song previews
 APIs Used
 Spotify NoCode API:
 
-Endpoint for fetching random songs.
+Endpoint for fetching trending songs.
 Endpoint for searching songs by name.
 Handles song previews and metadata.
 YouTube Data API v3:
