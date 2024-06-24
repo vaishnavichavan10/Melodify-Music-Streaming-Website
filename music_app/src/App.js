@@ -16,7 +16,7 @@ const App = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://v1.nocodeapi.com/vaishnavichavan/spotify/${process.env.REACT_APP_NOCODE_API_KEY}/search?q=popular&type=track`
+        `https://v1.nocodeapi.com/vaishnavichavan/spotify/${process.env.REACT_APP_NOCODE_API_KEY}/search?q=trending&type=track`
       );
 
       if (!response.ok) {
